@@ -26,7 +26,7 @@ global.author = 'ڪَباؘسِ丫:١⁶𝑘𝑎𝑝𝑎𝑠'
 //--info FG
 global.botName = 'ڪَباؘسِ丫:١⁶𝑘𝑎𝑝𝑎𝑠'
 global.fgig = '*https://whatsapp.com/channel/0029VaaLM7m6BIErLz1Xcq3M*' 
-global.fgsc = 'https://github.com/FG98F/dylux-fg' 
+global.fgsc = 'https://wa.me/967734144053' 
 global.fgyt = 'https://wa.me/967734144053'
 global.fgpyp = 'https://paypal.me/fg98f'
 global.fglog = 'https://i.ibb.co/1zdz2j3/logo.jpgs' 
