@@ -54,7 +54,7 @@ para ver el Menu del bot escribe
      })
     } catch (e) {
       conn.reply(global.owner[1]+'@s.whatsapp.net', e)
-      throw `✳️ Lo siento, el bot no puede unirse a grupos`
+      throw `✳️ مقدرت ادخل, el bot no puede unirse a grupos`
       }
 }
 handler.help = ['انضم <chat.whatsapp.com> <dias>']
