@@ -7,9 +7,9 @@ let handler = async (m, { conn, text, usedPrefix, command, args, participants, i
  
   let name = m.sender 
   let [_, code] = text.match(linkRegex) || []
-  if (!args[0]) throw `✳️ارسل رابط المجموعه\n\n 📌 Ejemplo:\n *${usedPrefix + command}* <linkwa> <dias>\n\n_el número son los días que el bot estará en el grupo_` 
+  if (!args[0]) throw `✳️ارسل رابط المجموعه\n\n 📌 مثال:\n *${usedPrefix + command}* <linkwa> <dias>\n\n_el número son los días que el bot estará en el grupo_` 
   if (!code) throw `✳️ الرابط غير صالح`
-  if (!args[1]) throw `📌 Falta el número de días\n\n Ejemplo:\n *${usedPrefix + command}* <linkwa> 2`
+  if (!args[1]) throw `📌 مثال el número de días\n\n Ejemplo:\n *${usedPrefix + command}* <linkwa> 2`
   if (isNaN(args[1])) throw `✳️ Solo número, que representa los días que el bot estará en el grupo!`
   let owbot = global.owner[1] 
   m.reply(`😎 Espere 3 segundos, me uniré al grupo`)
