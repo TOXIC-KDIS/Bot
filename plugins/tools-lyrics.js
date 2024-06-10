@@ -15,8 +15,8 @@ let handler = async (m, {conn, text }) => {
 } 
 
 }
-handler.help = ['كلمات']
+handler.help = ['اكتب']
 handler.tags = ['tools']
-handler.command = ['letra', 'كلمات', 'letras'] 
+handler.command = ['letra', 'اكتب', 'letras'] 
 
 export default handler
