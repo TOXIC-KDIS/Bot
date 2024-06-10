@@ -9,9 +9,9 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
       m.react(done)
 
   }
-  handler.help = ['txt']
+  handler.help = ['ندا']
   handler.tags = ['fun']
-  handler.command = ['txt']
+  handler.command = ['ندا']
   
   export default handler
   
