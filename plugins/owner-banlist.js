@@ -4,7 +4,7 @@ let handler = async (m, { conn, usedPrefix, isOwner }) => {
     let users = Object.entries(global.db.data.users).filter(user => user[1].banned)
     
     let te = `
-≡ *USUARIOS BANEADOS*
+≡ *قائمه المحظورين*
 
 ▢ ${mssg.total} : *${users.length}* 
 
