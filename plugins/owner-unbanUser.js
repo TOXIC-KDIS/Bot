@@ -36,9 +36,9 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     }
     
 }
-handler.help = ['unban @user']
+handler.help = ['الغاءالحظر @منشن']
 handler.tags = ['owner']
-handler.command = ['unban'] 
+handler.command = ['الغاءالحظر'] 
 handler.rowner = true
 
 export default handler
