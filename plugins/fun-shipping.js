@@ -19,7 +19,7 @@ global.db.data.users[m.sender].shipping = new Date * 1
 }
 handler.help = ['زوجتي']
 handler.tags = ['fun']
-handler.command = ['زوج|زوجي']
+handler.command = ['زوجي|زوجي']
 handler.group = true
 
 export default handler
