@@ -25,7 +25,7 @@ global.author = 'ڪَباؘسِ丫:١⁶𝑘𝑎𝑝𝑎𝑠'
 
 //--info FG
 global.botName = 'ڪَباؘسِ丫:١⁶𝑘𝑎𝑝𝑎𝑠'
-global.fgig = '*https://whatsapp.com/channel/0029VaaLM7m6BIErLz1Xcq3M*' 
+global.fgig = '*https://www.instagram.com/kbas721?igsh=YzFkOXprbjI5ZDAz*' 
 global.fgsc = 'https://wa.me/967734144053' 
 global.fgyt = 'https://wa.me/967734144053'
 global.fgpyp = 'https://paypal.me/fg98f'
