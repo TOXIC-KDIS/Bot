@@ -14,8 +14,8 @@ let handler = async (m, { conn, usedPrefix, command }) => {
         m.reply(`✳️ ${mssg.toaud}:\n\n*${usedPrefix + command}*`)
    }
 }
-handler.help = ['tomp3']
+handler.help = ['تومب3']
 handler.tags = ['fun']
-handler.command = ['tomp3', 'mp3', 'toudio'] 
+handler.command = ['تومب3', 'mp3', 'toudio'] 
 
 export default handler
