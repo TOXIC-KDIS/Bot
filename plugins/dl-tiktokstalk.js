@@ -20,8 +20,8 @@ let handler = async (m, { conn, text, args }) => {
   m.reply(`✳️ ${mssg.error}`)
 }
 }
-handler.help = ['tiktokstalk']
+handler.help = ['تيكتوك']
 handler.tags = ['dl']
-handler.command = /^t(tstalk|iktokstalk)$/i
+handler.command = /^t(تيكتوك|iktokstalk)$/i
 
 export default handler
