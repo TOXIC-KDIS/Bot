@@ -13,9 +13,9 @@ let handler = async (m, { text, conn }) => {
 _${mssg.afkmsg}_
   `, null, {mentions: conn.parseMention(text)})
 }
-handler.help = ['afk']
+handler.help = ['غياب']
 handler.tags = ['fun']
-handler.command = ['afk']
+handler.command = ['غياب']
 handler.group = true
 
 export default handler
