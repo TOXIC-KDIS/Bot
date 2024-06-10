@@ -13,7 +13,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   }
 
     if(!text && !m.quoted) return m.reply(`✳️ ${mssg.noMention}\n\n📌 ${mssg.examples}: ${usedPrefix + command} @user`)
-    if(isNaN(number)) return m.reply(`✳️ El número que ingresaste no es válido`)
+    if(isNaN(number)) return m.reply(`✳️ الرقم الذي يتم ادخاله غير صالح`)
 
       try {
 		if(text) {
