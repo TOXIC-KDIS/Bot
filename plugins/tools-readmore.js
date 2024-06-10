@@ -4,9 +4,9 @@ let handler = async (m, { conn, text }) => {
     if (!r) r = ''
     conn.reply(m.chat, l + readMore + r, m)
 }
-handler.help = ['readmore <text1>|<text2>'] 
+handler.help = ['المزيد'] 
 handler.tags = ['tools']
-handler.command = ['leermas', 'readmore'] 
+handler.command = ['leermas', 'المزيد'] 
 
 export default handler
 
