@@ -27,7 +27,7 @@ let handler = async (m, { conn, text }) => {
   } finally {
     	let number = user.split('@')[0]
         delete global.global.db.data.users[user]
-        conn.reply(m.chat, `*❏ USUARIO REINICIADO*\n\n✅ Se reinició a @${number} de la *BASE DE DATOS*`, null, { mentions: [user] })
+        conn.reply(m.chat, `*❏ USUARIO REINICIADO*\n\n✅  تم اعادة التعين الي  @${number} de la *BASE DE DATOS*`, null, { mentions: [user] })
     }
     
 }
