@@ -29,14 +29,13 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
         let num = global.db.data.users[user]
         num.banned = false
         conn.reply(m.chat, `
-✅ DESBANEO
-
+✅ تم الغاء الحظر عن ابن الجزمه
 ───────────
 @${number} ${mssg.unBanUser}`, m, { mentions: [user] })
     }
     
 }
-handler.help = ['الغاءالحظر @منشن']
+handler.help = ['الغاءالحظر']
 handler.tags = ['owner']
 handler.command = ['الغاءالحظر'] 
 handler.rowner = true
