@@ -46,9 +46,9 @@ ${pluginNames.map(name => `▢ ${name}`).join('\n')}
     m.reply('❎ Error')
   }
 };
-handler.help = ['getplugin']
+handler.help = ['طلب']
 handler.tags = ['owner']
-handler.command = ['getplugin']
+handler.command = ['طلب']
 handler.rowner = true
 
 export default handler
