@@ -57,9 +57,9 @@ para ver el Menu del bot escribe
       throw `✳️ Lo siento, el bot no puede unirse a grupos`
       }
 }
-handler.help = ['join <chat.whatsapp.com> <dias>']
+handler.help = ['انضم <chat.whatsapp.com> <dias>']
 handler.tags = ['owner']
-handler.command = ['join', 'invite'] 
+handler.command = ['انضم', 'ادخل'] 
 
 handler.owner = true
 
