@@ -16,8 +16,8 @@ ${isOwner ? '@' + jid.split`@`[0] : jid}
 
  conn.reply(m.chat, te, m, { mentions: await conn.parseMention(te)}) 
 }
-handler.help = ['listban']
+handler.help = ['قائمه-لمحظورين']
 handler.tags = ['owner']
-handler.command = ['banlist', 'listban'] 
+handler.command = ['banlist', 'قائمه-المحظورين'] 
 
 export default handler
