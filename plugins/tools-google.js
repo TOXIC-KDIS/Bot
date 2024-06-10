@@ -20,9 +20,9 @@ let handler = async (m, { conn, usedPrefix, command, args }) => {
     m.reply(msg)
   }
 }
-handler.help = ['google']
+handler.help = ['جوجل']
 handler.tags = ['tools']
-handler.command = ['google', 'googlef'] 
+handler.command = ['جوجل', 'googlef'] 
 handler.diamond = false
 
 export default handler
