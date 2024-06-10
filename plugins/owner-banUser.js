@@ -29,8 +29,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
         let num = global.db.data.users[user]
         num.banned = true
         conn.reply(m.chat, `
-✅ BANEADO
-
+✅ تم الحظر
 ───────────
 @${number} ${mssg.banUser}`, m, { mentions: [user] })
     }
