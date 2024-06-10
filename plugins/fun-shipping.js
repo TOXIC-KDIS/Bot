@@ -17,9 +17,9 @@ ${toM(f)}
 `, null, { mentions: [f, g] })
 global.db.data.users[m.sender].shipping = new Date * 1
 }
-handler.help = ['shipping']
+handler.help = ['زوجتي']
 handler.tags = ['fun']
-handler.command = ['shipping']
+handler.command = ['زوج|زوجي']
 handler.group = true
 
 export default handler
