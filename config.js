@@ -24,7 +24,7 @@ global.packname = ' بوت ڪَباؘسِ丫:١⁶𝑘𝑎𝑝𝑎𝑠 '
 global.author = 'ڪَباؘسِ丫:١⁶𝑘𝑎𝑝𝑎𝑠' 
 
 //--info FG
-global.botName = 'ڪَباؘسِ丫:١⁶𝑘𝑎𝑝𝑎𝑠'
+global.botName = '丫'
 global.fgig = '*https://www.instagram.com/kbas721?igsh=YzFkOXprbjI5ZDAz*' 
 global.fgsc = 'https://wa.me/967734144053' 
 global.fgyt = 'https://wa.me/967734144053'
