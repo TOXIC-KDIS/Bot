@@ -20,7 +20,7 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = ' بوت ڪَباؘسِ丫:١⁶𝑘𝑎𝑝𝑎𝑠 ' 
+global.packname = '💘' 
 global.author = 'ڪَباؘسِ丫:١⁶𝑘𝑎𝑝𝑎𝑠' 
 
 //--info FG
