@@ -12,7 +12,7 @@ var handler = async (m, { conn, command, text, usedPrefix }) => {
   let vidInfo = await ytdl.getInfo(url);
   let { videoDetails: { title, thumbnails, lengthSeconds } } = vidInfo;
   let thumbnail = thumbnails[thumbnails.length - 1].url;
-  let wm = '♪ 𝑴𝒊𝒓𝒛𝒂 𝑴𝒖𝒔𝒊𝒄 ♪'; // Your bot's watermark
+  let wm = '♪بوت♪'; // Your bot's watermark
   m.react(rwait);
   const audioStream = ytdl(url, { filter: 'audioonly', quality: 'highestaudio' });
   const tmpDir = os.tmpdir();
